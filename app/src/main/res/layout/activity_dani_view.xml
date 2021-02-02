@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaniView">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/holo_orange_dark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@android:color/holo_green_dark"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="@android:color/holo_purple"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginRight="130dp"
+                android:background="@android:color/holo_red_dark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="@android:color/holo_purple"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@android:color/holo_green_dark"/>
+            <View
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/holo_orange_dark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/daniIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="መግብያ ፡ ስለ ጸሓፊው"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/danione"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/one" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichapterone"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/danitwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/two" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichaptertwo"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/danithree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/three" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichapterthree"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/danifour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/four" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichapterfour"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/danifive"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/five" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichapterfive"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/danisix"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/six" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichaptersix"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/daniseven"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="70dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/seven" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichapterseven"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/danieight"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="70dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/eight" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichaptereight"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/daninine"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="70dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/nine" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichapternine"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/daniten"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="70dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ten" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/danichapterten"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+

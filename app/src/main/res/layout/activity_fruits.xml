@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fruits">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="vertical">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <View
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/holo_orange_dark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@android:color/holo_green_dark"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="@android:color/holo_purple"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:src="@drawable/abune_shinoda"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="5"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/fruits"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_large"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="@android:color/holo_purple"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@android:color/holo_green_dark"/>
+            <View
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/holo_orange_dark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"/>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fruitone"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/one" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/chapterone"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fruittwo"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/two" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/chaptertwo"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fruitthree"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/three" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/chapterthree"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fruitfour"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/four" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/chapterfour"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fruitsix"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="70dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/six" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/chaptersix"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fruitseven"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="70dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/seven" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/chapterseven"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fruiteight"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="70dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/eight" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/chaptereight"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fruitnine"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/card_margin_small"
+                android:layout_height="70dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/nine" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/chapternine"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/aboutbook"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ten" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/aboutbook"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

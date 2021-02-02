@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayTwo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/holo_orange_dark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@android:color/holo_green_dark"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="@android:color/holo_purple"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginRight="130dp"
+                android:background="@android:color/holo_red_dark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="@android:color/holo_purple"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@android:color/holo_green_dark"/>
+            <View
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/holo_orange_dark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="8dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/imageHeader"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/one" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/daniheaderone"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/d2favorie1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ic_favorite_border_black_24dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/danidisplayone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_extra"
+                android:elevation="8dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorAccent"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/danicontentDisplayone"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_large2"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="8dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/imageHeader2"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/two" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/daniheadertwo"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/d2favorie2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ic_favorite_border_black_24dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/danidisplaytwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_extra"
+                android:elevation="8dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorAccent"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/danicontentDisplaytwo"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_large2"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_small"
+                android:elevation="8dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/imageHeader3"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/three" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/daniheaderthree"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/d2favorie3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ic_favorite_border_black_24dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/danidisplaythree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin_extra"
+                android:elevation="8dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/colorAccent"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/danicontentDisplaythree"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_large2"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+      >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/bookOne"
+            android:title="ፍኖተ አእምሮ "
+            android:visible="true"
+            android:icon="@drawable/subconcious"
+            />
+        <item android:id="@+id/bookTwo"
+            android:title="የመንፈስ ፍሬዎች "
+            android:visible="true"
+            android:icon="@drawable/fruit"
+            />
+        <item android:id="@+id/bookThree"
+            android:title="ዘርዓ ያዕቆብ "
+            android:visible="true"
+            android:icon="@drawable/philosophy"
+            />
+    </group>
+    <item android:id="@+id/space"
+        android:title="" />
+    <group
+        android:checkableBehavior="single"
+        >
+        <item android:id="@+id/bookFour"
+            android:title="ዳነኤል ክብረት"
+            android:visible="true"
+            android:icon="@drawable/fruit"
+            />
+        <item android:id="@+id/aboutus"
+            android:title="About Us"
+            android:visible="true"
+            android:icon="@drawable/about_us"
+            />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        >
+        <item android:id="@+id/share"
+            android:title="Share"
+            android:visible="true"
+            android:icon="@drawable/share"
+            />
+    </group>
+</menu>
